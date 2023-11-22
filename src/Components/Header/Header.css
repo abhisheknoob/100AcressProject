@@ -1,0 +1,25 @@
+header{
+    background-color: transparent;
+   padding: 10px 0;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   width: 100%;
+   
+}
+header .logo {
+    text-align: center;
+}
+header .logo img{
+   width: 135px;
+   
+}
+@media (max-width:980px) {
+    header{
+      background-color: black;
+    }
+    header .logo img {
+        width: 100px;
+    }
+}

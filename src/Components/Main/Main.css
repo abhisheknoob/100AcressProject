@@ -1,0 +1,106 @@
+.DLF{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 70px 50px;
+   border-bottom: 1px solid white;
+ 
+}
+main{
+    background-color: black;
+    color: white;
+   
+}
+.DLF .Gardencity {
+  width: 190px;
+  display: block;
+  margin: 0;
+}
+.DLF .Gardencity img{
+    width: 100%;
+}
+.DLF .DLFlogo  {
+    width: 210px;
+    margin: 0;
+    display: block;
+}
+.DLF .DLFlogo img{
+    width: 100%;
+}
+.location {
+    display: flex;
+   
+    padding: 70px 50px;
+    border-bottom: 1px solid white;
+   
+}
+.location h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px !important;
+    letter-spacing: 1px;
+    color: #c8c6c6;
+    line-height: 1.3;
+}
+.location .right{
+    display: flex;
+    justify-content: start;
+    gap: 100px;
+    /* align-items: ; */
+   
+}
+
+
+.location .left .top .bottomdetail {
+    
+    border-bottom: 1px solid white;
+    padding-bottom: 30px ;
+}
+.location .left .top .bottom{
+    margin-top: 15px;
+}
+.location .right ul li {
+    list-style: none;
+    margin-bottom: 25px ;
+}
+.License {
+    padding: 70px 50px;
+}
+.License p{
+    font-weight: 100;
+    font-size: 18px;
+    color: #c8c6c6;
+    line-height: 1.6;
+}
+@media (max-width:500px) {
+    .DLF {
+        flex-direction: column;
+    }
+    .DLF .Gardencity {
+        margin-bottom: 30px;
+    }
+    
+
+.location {
+  flex-direction: column;
+}
+.location h3 {
+    font-size: 17px;
+ 
+}
+.location .right {
+flex-direction: column;
+}
+.location .right  ul li{
+    margin-bottom: 0;
+}
+.location .right {
+   flex-direction: column;
+    gap: 2px;
+}
+.License p {
+  
+    font-size: 16px;
+    
+}
+}
